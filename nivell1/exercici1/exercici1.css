@@ -1,9 +1,12 @@
-header,main,footer{
+body{
+    max-width: 1200px;
+}
+header,.section-main,footer{
     background-color: black;
     padding:15px;
 }
 
-header,main{
+header,.section-main{
     margin-bottom: 20px;
 }
 
@@ -14,6 +17,22 @@ nav{
     padding:15px;
 }
 
+aside{
+    background-color: crimson;
+    margin: 0 0 0 auto;
+    box-sizing: border-box;
+    width: 29%;
+}
+.section-main{
+    display: flex;
+}
+.articles{
+    background-color: slategrey;
+    min-height: 69px;
+    margin: 0 auto 0 0;
+    box-sizing: border-box;
+    width: 69%;
+}
 .nav-anchor{
     background-color: salmon;
     display: inline-block;
