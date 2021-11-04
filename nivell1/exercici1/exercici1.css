@@ -1,0 +1,40 @@
+header,main,footer{
+    background-color: black;
+    padding:15px;
+}
+
+header,main{
+    margin-bottom: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: slategrey;
+    padding:15px;
+}
+
+.nav-anchor{
+    background-color: salmon;
+    display: inline-block;
+    height: 20px;
+}
+.section-header{
+    background-color: sandybrown;
+    padding: 15px;
+    min-height: 20px;
+}
+.paragraph-header,.paragraph-footer{
+    background-color:khaki;
+    min-height: 20px;
+    margin:0;
+    padding:0;
+}
+.mayor{
+    width: 60%;
+}
+.minor{
+    width: 15%;;
+}
+
+
