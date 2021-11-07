@@ -156,7 +156,6 @@ footer{
         width: 100%;
         padding: 30px;
         background-color: rgb(228, 124, 83);
-
     }
 
     article{
@@ -170,6 +169,7 @@ footer{
         grid-area:section-header;
         padding:30px;
     }
+
     .section-main{
         background-color:yellow;
         display:grid;
@@ -177,14 +177,16 @@ footer{
         grid-template-areas: 
             "articles"
             "aside";
-    
     }
+
     .section-aside{
         background-color:rgb(223, 172, 106);
     }
+
     .nav-anchor,.paragraph-header,.paragraph-footer,.section-aside{
         height: 35px;
     }
+
     .articles{
         grid-area:articles;
         flex-direction:column;
@@ -193,10 +195,12 @@ footer{
         padding:20px 30px;
         padding-left: 15px;
     }
+
     .minor,.mayor{
         width: 100%;
         margin:20px;
     }
+    
     .uno{
         margin-bottom:20px;
     }
